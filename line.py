@@ -17,9 +17,9 @@ Y1 = A*X1 + B
 Y2 = A*X2 + B
 
 print("Dados los siguientes puntos:")
-print(f"\tP1 ({X1},{Y1})")
-print(f"\tP2 ({X2},{Y2})")
+print(f"\tP1 ({X1}, {Y1})")
+print(f"\tP2 ({X2}, {Y2})")
 
-d=float((X1-X2)**1/2 + (Y1-Y2)**1/2)
+d=float((X1-X2)*2 + (Y1-Y2)*2)**1/2
 
 print(f"\nLa distancia entre ellos es: {d}")
